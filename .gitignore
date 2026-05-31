@@ -1,0 +1,9 @@
+# --- SISTEMA OPERACIONAL ---
+.DS_Store
+Thumbs.db
+
+# --- ARQUIVOS DE BUILD (Não usados agora, mas bom prevenir) ---
+build/
+dist/
+coverage/
+.docs/
