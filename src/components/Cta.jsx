@@ -15,10 +15,10 @@ export default function Cta() {
           Chega de sufoco em todo início de semestre!
         </Typography>
         <Typography variant="subtitle1" color="text.secondary" paragraph>
-          Acesse agora o sistema oficial e tenha as informações que você precisa no seu bolso.
+          A pergunta 'Mano, Qual é a Sala?!' agora tem uma resposta definitiva e instantânea na palma da sua mão.
         </Typography>
         <Button variant="contained" size="large" href="https://mqsapp.com.br/" target="_blank" sx={{ mt: 2 }}>
-          Acessar MQS
+          Acesse e use o MQS agora!
         </Button>
       </Container>
     </Box>

@@ -15,10 +15,10 @@ export default function Hero() {
           Mano, Qual é a Sala?!
         </Typography>
         <Typography variant="h6" color="text.secondary" paragraph>
-          Encontre sua sala de aula de forma rápida e direta.
+          Eficiência e UX no Cotidiano Acadêmico. Projetado para ser um assistente ágil e intuitivo, eliminando a burocracia e simplificando o seu acesso às informações de salas de aula e horários do IFTO.
         </Typography>
         <Button variant="contained" size="large" href="#funcionalidades" sx={{ mt: 2 }}>
-          Ver Funcionalidades
+          Conheça as Funcionalidades
         </Button>
       </Container>
     </Box>

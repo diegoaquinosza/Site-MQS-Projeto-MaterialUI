@@ -11,8 +11,11 @@ export default function Features() {
   return (
     <Box id="funcionalidades" sx={{ py: 8, backgroundColor: 'background.default' }}>
       <Container maxWidth="md">
-        <Typography variant="h4" component="h2" align="center" gutterBottom fontWeight="bold" sx={{ mb: 6 }}>
+        <Typography variant="h4" component="h2" align="center" gutterBottom fontWeight="bold">
           Funcionalidades Inteligentes
+        </Typography>
+        <Typography variant="subtitle1" align="center" color="text.secondary" paragraph sx={{ mb: 6 }}>
+          Tudo que você precisa, estruturado com HTML5 Semântico e Vanilla JS.
         </Typography>
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
@@ -26,10 +29,10 @@ export default function Features() {
               />
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h6" component="h3" fontWeight="bold">
-                  Acesso Rápido
+                  📶 Acesso Rápido
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Encontre sua sala imediatamente logo na primeira tela, sem distrações.
+                  Salve seus horários e locais favoritos no dispositivo para consultas offline instantâneas.
                 </Typography>
               </CardContent>
             </Card>
@@ -40,16 +43,16 @@ export default function Features() {
               <CardMedia
                 component="img"
                 height="180"
-                image="assets/images/tema_escuro.PNG"
-                alt="Modo Noturno"
+                image="assets/images/busca_direcionada2.PNG"
+                alt="Busca Direcionada"
                 sx={{ objectFit: 'cover' }}
               />
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h6" component="h3" fontWeight="bold">
-                  Modo Noturno
+                  🧭 Busca Direcionada
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Proteja sua visão com um tema escuro integrado perfeitamente ao sistema.
+                  Encontre rapidamente o local exato da sua aula através de filtros inteligentes por curso, período e turno.
                 </Typography>
               </CardContent>
             </Card>
@@ -60,16 +63,16 @@ export default function Features() {
               <CardMedia
                 component="img"
                 height="180"
-                image="assets/images/acessibilidade.PNG"
-                alt="Acessibilidade"
+                image="assets/images/grade_personalizada2.PNG"
+                alt="Grade Personalizada"
                 sx={{ objectFit: 'cover' }}
               />
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h6" component="h3" fontWeight="bold">
-                  Acessibilidade Plena
+                  📅 Grade Personalizada
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Fontes especiais para dislexia e alto contraste para todos os públicos.
+                  Monte e visualize seu quadro de horários semanal de forma intuitiva, adaptada à sua rotina acadêmica.
                 </Typography>
               </CardContent>
             </Card>

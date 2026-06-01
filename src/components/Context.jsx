@@ -17,7 +17,7 @@ export default function Context() {
               O Fim da Fricção Tecnológica
             </Typography>
             <Typography variant="body1" color="text.secondary" paragraph>
-              Acreditamos que a tecnologia no ambiente acadêmico deve simplificar a sua vida, não adicionar novas barreiras. É por isso que o MQS foi desenhado para ser direto ao ponto.
+              Portais acadêmicos frequentemente apresentam interfaces burocráticas e lentas. O MQS aplica a Lei de Hick para reduzir opções na tela, acelerando a tomada de decisões e diminuindo a sua carga cognitiva diária.
             </Typography>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -26,19 +26,19 @@ export default function Context() {
                 <ListItemIcon>
                   <Typography variant="h5">⚡</Typography>
                 </ListItemIcon>
-                <ListItemText primary="Acesso Imediato" secondary="Sem necessidade de logins ou cadastros demorados." />
+                <ListItemText primary="Acesso Imediato" secondary="Sua sala em poucos segundos." />
               </ListItem>
               <ListItem>
                 <ListItemIcon>
                   <Typography variant="h5">📱</Typography>
                 </ListItemIcon>
-                <ListItemText primary="Mobile-First" secondary="Interface perfeitamente otimizada para o seu celular." />
+                <ListItemText primary="Mobile-First" secondary="Perfeito para a tela do seu celular." />
               </ListItem>
               <ListItem>
                 <ListItemIcon>
-                  <Typography variant="h5">💾</Typography>
+                  <Typography variant="h5">🧠</Typography>
                 </ListItemIcon>
-                <ListItemText primary="Persistência Local" secondary="Suas preferências ficam salvas no seu próprio aparelho." />
+                <ListItemText primary="Persistência Local" secondary="Sem logins repetitivos (Zero Login)." />
               </ListItem>
             </List>
           </Grid>
