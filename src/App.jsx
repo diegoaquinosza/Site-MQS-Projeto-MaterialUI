@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
+import { ThemeProvider, createTheme, CssBaseline, Box } from '@mui/material';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Context from './components/Context';
 import Features from './components/Features';
 import Cta from './components/Cta';
+import Footer from './components/Footer';
 
 /**
  * Componente principal da aplicação.
@@ -55,12 +56,14 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Header toggleTema={toggleTema} toggleFonte={toggleFonte} />
-      <Hero />
-      <Context />
-      <Features />
-      <Cta />
-      {/* Futuros componentes irão aqui */}
+      <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+        <Header toggleTema={toggleTema} toggleFonte={toggleFonte} />
+        <Hero />
+        <Context />
+        <Features />
+        <Cta />
+        <Footer />
+      </Box>
     </ThemeProvider>
   );
 }
