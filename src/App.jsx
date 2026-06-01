@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Context from './components/Context';
+import Features from './components/Features';
 import Cta from './components/Cta';
 
 /**
@@ -55,6 +57,8 @@ export default function App() {
       <CssBaseline />
       <Header toggleTema={toggleTema} toggleFonte={toggleFonte} />
       <Hero />
+      <Context />
+      <Features />
       <Cta />
       {/* Futuros componentes irão aqui */}
     </ThemeProvider>
