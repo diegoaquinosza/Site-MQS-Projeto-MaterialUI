@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
+import Header from './components/Header';
 
 /**
  * Componente principal da aplicação.
@@ -50,6 +51,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <Header toggleTema={toggleTema} toggleFonte={toggleFonte} />
       {/* Futuros componentes irão aqui */}
     </ThemeProvider>
   );
