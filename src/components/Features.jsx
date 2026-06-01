@@ -22,10 +22,10 @@ export default function Features() {
             <Card elevation={3} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
               <CardMedia
                 component="img"
-                height="180"
+                height="570"
                 image="assets/images/acesso_rapido2.PNG"
                 alt="Acesso Rápido"
-                sx={{ objectFit: 'cover' }}
+                sx={{ objectFit: 'contain' }}
               />
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h6" component="h3" fontWeight="bold">
@@ -42,10 +42,10 @@ export default function Features() {
             <Card elevation={3} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
               <CardMedia
                 component="img"
-                height="180"
+                height="570"
                 image="assets/images/busca_direcionada2.PNG"
                 alt="Busca Direcionada"
-                sx={{ objectFit: 'cover' }}
+                sx={{ objectFit: 'contain' }}
               />
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h6" component="h3" fontWeight="bold">
@@ -62,10 +62,10 @@ export default function Features() {
             <Card elevation={3} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
               <CardMedia
                 component="img"
-                height="180"
+                height="570"
                 image="assets/images/grade_personalizada2.PNG"
                 alt="Grade Personalizada"
-                sx={{ objectFit: 'cover' }}
+                sx={{ objectFit: 'contain' }}
               />
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h6" component="h3" fontWeight="bold">
