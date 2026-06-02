@@ -17,7 +17,19 @@ export default function Hero() {
         <Typography variant="h6" color="text.secondary" paragraph>
           Eficiência e UX no Cotidiano Acadêmico. Projetado para ser um assistente ágil e intuitivo, eliminando a burocracia e simplificando o seu acesso às informações de salas de aula e horários do IFTO.
         </Typography>
-        <Button variant="contained" size="large" href="#funcionalidades" sx={{ mt: 2 }}>
+        <Button
+          variant="contained"
+          size="large"
+          href="#funcionalidades"
+          sx={{
+            mt: 2,
+            transition: 'transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+            '&:hover': {
+              transform: 'scale(1.05)',
+              boxShadow: '0 6px 20px rgba(0, 137, 123, 0.4)',
+            },
+          }}
+        >
           Conheça as Funcionalidades
         </Button>
       </Container>

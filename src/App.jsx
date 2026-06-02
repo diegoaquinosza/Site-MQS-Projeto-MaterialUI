@@ -31,6 +31,9 @@ export default function App() {
           ? 'Verdana, Comic Sans MS, sans-serif'
           : 'Roboto, Helvetica, Arial, sans-serif',
     },
+    shape: {
+      borderRadius: 12, // Aumenta a suavidade de todos os botões, cards e inputs do site de uma só vez!
+    },
   });
 
   /**

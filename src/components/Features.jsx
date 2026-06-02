@@ -19,12 +19,27 @@ export default function Features() {
         </Typography>
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
-            <Card elevation={3} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+            <Card
+              elevation={3}
+              sx={{
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                // Transição física tridimensional: utiliza a curva cúbica do Material Design (cubic-bezier)
+                // para garantir suavidade e uma aceleração realista nas interações.
+                transition: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                '&:hover': {
+                  transform: 'translateY(-8px)', // Flutuação suave no eixo Y para simular elevação ativa
+                  boxShadow: 8, // Projeção de sombra expandida simetricamente
+                },
+              }}
+            >
               <CardMedia
                 component="img"
                 height="570"
                 image="assets/images/acesso_rapido2.PNG"
                 alt="Acesso Rápido"
+                // Garante que o mockup vertical do celular seja renderizado por inteiro, sem cortes ou distorções.
                 sx={{ objectFit: 'contain' }}
               />
               <CardContent sx={{ flexGrow: 1 }}>
@@ -39,12 +54,27 @@ export default function Features() {
           </Grid>
 
           <Grid item xs={12} md={4}>
-            <Card elevation={3} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+            <Card
+              elevation={3}
+              sx={{
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                // Transição física tridimensional: utiliza a curva cúbica do Material Design (cubic-bezier)
+                // para garantir suavidade e uma aceleração realista nas interações.
+                transition: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                '&:hover': {
+                  transform: 'translateY(-8px)', // Flutuação suave no eixo Y para simular elevação ativa
+                  boxShadow: 8, // Projeção de sombra expandida simetricamente
+                },
+              }}
+            >
               <CardMedia
                 component="img"
                 height="570"
                 image="assets/images/busca_direcionada2.PNG"
                 alt="Busca Direcionada"
+                // Garante que o mockup vertical do celular seja renderizado por inteiro, sem cortes ou distorções.
                 sx={{ objectFit: 'contain' }}
               />
               <CardContent sx={{ flexGrow: 1 }}>
@@ -59,12 +89,27 @@ export default function Features() {
           </Grid>
 
           <Grid item xs={12} md={4}>
-            <Card elevation={3} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+            <Card
+              elevation={3}
+              sx={{
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                // Transição física tridimensional: utiliza a curva cúbica do Material Design (cubic-bezier)
+                // para garantir suavidade e uma aceleração realista nas interações.
+                transition: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                '&:hover': {
+                  transform: 'translateY(-8px)', // Flutuação suave no eixo Y para simular elevação ativa
+                  boxShadow: 8, // Projeção de sombra expandida simetricamente
+                },
+              }}
+            >
               <CardMedia
                 component="img"
                 height="570"
                 image="assets/images/grade_personalizada2.PNG"
                 alt="Grade Personalizada"
+                // Garante que o mockup vertical do celular seja renderizado por inteiro, sem cortes ou distorções.
                 sx={{ objectFit: 'contain' }}
               />
               <CardContent sx={{ flexGrow: 1 }}>
